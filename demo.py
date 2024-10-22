@@ -7,9 +7,9 @@ import psutil
 if 'apm_client' not in st.session_state:
     st.session_state.apm_client = Client({
         'DEBUG': True,
-        'SERVICE_NAME': 'pydemo',
-        'SECRET_TOKEN': 'bPqqFBrQYKFsOIk3Uk',
-        'SERVER_URL': 'https://e0c3393e44994fc1b02c901b31d8e605.apm.europe-west4.gcp.elastic-cloud.com:443',
+        'SERVICE_NAME': '',
+        'SECRET_TOKEN': '',
+        'SERVER_URL': '',
         'SERVICE_VERSION': '0.1',
     })
 
